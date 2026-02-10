@@ -11,7 +11,7 @@ The following example code allows setting up in a graceful manner:
             AutoConfiguredOpenTelemetrySdk.initialize().getOpenTelemetrySdk();
         } else {
             log.info("""
-                     OpenTelemetry plugin for cucumber steps tracing is disabled, set env OTEL_EXPORTER_OTLP_ENDPOINT to a \
+                     OpenTelemetry plugin for cucumber steps is disabled, set env OTEL_EXPORTER_OTLP_ENDPOINT to a \
                      valid URL to enable.""");
         }
     }
